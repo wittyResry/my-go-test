@@ -42,7 +42,13 @@ func main() {
 	structs.MainStruct()
 	structs.MainStructPoint()
     arrays.MainArray()
+    arrays.MainAppend()
+    arrays.MainRangeContinue()
     exercise.MainPic()
     maps.MainMap()
+    maps.MainMapMultate()
     exercise.MainMaps()
+    functions.MainFunctionValue()
+    functions.MainFunctionClosures()
+    exercise.MainFibonacciClosure()
 }
