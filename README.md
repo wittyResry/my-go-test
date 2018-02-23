@@ -107,3 +107,7 @@ if err != nil {
 }
 fmt.Println("Converted integer:", i)
 ```
+
+# Reader
+* io.Reader 接口有一个 Read 方法：`func (T) Read(b []byte) (n int, err error)`
+Read 用数据填充给定的字节切片并返回填充的字节数和错误值。 在遇到数据流的结尾时，它会返回一个 io.EOF 错误。示例代码创建了一个 strings.Reader 并以每次 8 字节的速度读取它的输出。

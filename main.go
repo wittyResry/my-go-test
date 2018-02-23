@@ -21,6 +21,7 @@ import (
 	"my-go-test/methods"
 	"my-go-test/interfaces"
 	"my-go-test/errors"
+	"my-go-test/readers"
 )
 
 func main() {
@@ -62,4 +63,7 @@ func main() {
     interfaces.MainTypeSwitch()
     interfaces.MainStringer()
     errors.MainError()
+    exercise.MainExerciseError()
+    readers.MainReader()
+    exercise.MainMyReader()
 }
