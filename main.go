@@ -18,6 +18,9 @@ import (
 	"my-go-test/variables"
 	"my-go-test/arrays"
 	"my-go-test/maps"
+	"my-go-test/methods"
+	"my-go-test/interfaces"
+	"my-go-test/errors"
 )
 
 func main() {
@@ -51,4 +54,12 @@ func main() {
     functions.MainFunctionValue()
     functions.MainFunctionClosures()
     exercise.MainFibonacciClosure()
+    methods.MainMethod()
+    methods.MainPorinter()
+    interfaces.MainInterface()
+    interfaces.MainInterfaceValues()
+    interfaces.MainTypeAssertion()
+    interfaces.MainTypeSwitch()
+    interfaces.MainStringer()
+    errors.MainError()
 }
