@@ -32,17 +32,17 @@ func MainArray() {
 		fmt.Printf("2^%d = %d,", i, v)
 	}
 
-    r := []bool{true, false,true, false, true, false}
-    fmt.Println(r)
+	r := []bool{true, false, true, false, true, false}
+	fmt.Println(r)
 
-    s := []struct {
-        i int
-        b bool
-    }{
-        {2, true},
-        {3, false},
-        {5, true},
-        {7, true},
-    }
-    fmt.Println(s)
+	s := []struct {
+		i int
+		b bool
+	}{
+		{2, true},
+		{3, false},
+		{5, true},
+		{7, true},
+	}
+	fmt.Println(s)
 }

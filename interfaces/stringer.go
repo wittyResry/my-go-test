@@ -2,16 +2,16 @@ package interfaces
 
 import "fmt"
 
-type IPAddr [4] byte
+type IPAddr [4]byte
 
 //Stringer()
 
-func (ip IPAddr) String()  string {
-    return fmt.Sprintf("%d.%d.%d.%d", ip[0], ip[1], ip[2], ip[3])
+func (ip IPAddr) String() string {
+	return fmt.Sprintf("%d.%d.%d.%d", ip[0], ip[1], ip[2], ip[3])
 }
 
 func MainStringer() {
-    hosts := map[string]IPAddr{
+	hosts := map[string]IPAddr{
 		"loopback":  {127, 0, 0, 1},
 		"googleDNS": {8, 8, 8, 8},
 	}

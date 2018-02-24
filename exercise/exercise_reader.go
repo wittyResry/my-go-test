@@ -10,8 +10,6 @@ func (mr MyReader) Read(b []byte) (int, error) {
 	return 1, nil
 }
 
-
 func MainMyReader() {
-	reader.Validate(MyReader{})// go get github.com/Go-zh/tour
+	reader.Validate(MyReader{}) // go get github.com/Go-zh/tour
 }
-
